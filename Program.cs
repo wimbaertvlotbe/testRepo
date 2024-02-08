@@ -1,4 +1,12 @@
 public double Gemiddelde(double[] metingen)
 {
-	\\hier komt code om het gemiddelde te berekenen.
+	'double gemiddelde = 0;
+double som = 0;
+
+foreach (double m in meting)
+{
+som += m;
+}
+gemiddelde = som / meting.Length;
+return gemiddelde;`
 }
